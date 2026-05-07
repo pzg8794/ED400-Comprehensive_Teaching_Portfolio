@@ -1,0 +1,30 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+
+# PDF outputs (keep only committed PDFs)
+# Uncomment below if you don't want to track compiled PDFs:
+# *.pdf
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Overleaf sync
+.overleaf/

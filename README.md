@@ -1,84 +1,104 @@
 # ED400 Comprehensive Teaching Portfolio
 
-Public portfolio repository for the Warner School comprehensive teaching portfolio and the EDU 400A rough-draft requirement.
+**Piter García** | University of Rochester, Warner School of Education  
+**Certification Area:** Initial Professional Teaching Certification — K-12 Computer Science  
+**Program:** NSF Robert Noyce Teacher Scholarship | Spring 2026
 
-Rubric and certification-area requirements folder: <https://drive.google.com/drive/folders/1AHOAh-MUIWg-2xVZXCz6hDzydanlecPe>
+---
 
-## Status
+## What This Repository Is
 
-This public repo is the canonical portfolio workspace. It replaces the earlier private `ED400A/comprehensive-portfolio` scaffold as the shareable version.
+This repository is the public, versioned home of my comprehensive teaching portfolio for the Warner School of Education teacher certification program. The portfolio demonstrates proficiency across the ten InTASC-aligned standards required for certification, synthesizing coursework, practicum experience, and reflective writing completed across ED400A, EDU442, EDF436, EDF447, EDF419A, ED452B, EDE498C, and EDU442 placements.
 
-Working certification-area rubric: **Childhood Education / Elementary**. That choice matches the current evidence base: Grade 4 TeachingPlacement, Pine Brook Elementary, Minecraft Education / computer science lessons, ED452B unit planning, ED400A reflection work, and EDU442 equity/identity work.
+The portfolio is **not** a collection of new papers written from scratch. It is — as the assignment framers put it — a "collage": existing work, reflections, practicum observations, and clinical evidence assembled and interpreted through the lens of each proficiency rubric.
 
-## What is here
+---
 
-```text
-.
-- README.md
-- portfolio-index.md
-- artifacts/
-  - artifact-references.md
-  - public-copies/
-  - pdfs/
-- docs/
-  - proficiency-map.md
-- drafts/
-  - personal-statement.md
-  - proficiency-02-learner-diversity-equity.md
-- reports/
-  - portfolio.tex
-  - portfolio.pdf
-- rubrics/
-  - drive-folder-manifest.md
-  - childhood-education-rubric-summary.md
+## Quick Start
+
+For the clearest review path, open these in order:
+
+1. [`personal-statement/`](personal-statement/) — Identity, commitment, and teaching philosophy narrative
+2. [`proficiencies/`](proficiencies/) — Ten proficiency papers (P1–P10), each with embedded artifact links
+3. [`artifacts/`](artifacts/) — Master artifact registry with clickable links to source repos
+4. [`tex/`](tex/) — LaTeX source for all proficiency papers and the personal statement
+5. [`NAVIGATION.md`](NAVIGATION.md) — Full cross-reference map (proficiency → artifact → source repo)
+
+---
+
+## Portfolio Structure
+
+```
+ED400-Comprehensive_Teaching_Portfolio/
+├── README.md                        ← You are here
+├── NAVIGATION.md                    ← Cross-reference map
+├── personal-statement/
+│   ├── personal-statement.md        ← Full narrative (Markdown)
+│   └── (see tex/personal-statement.tex for LaTeX version)
+├── proficiencies/
+│   ├── P1-learner-development.md
+│   ├── P2-learner-diversity-equity.md
+│   ├── P3-learning-environments.md
+│   ├── P4-content-knowledge.md
+│   ├── P5-assessment-of-learning.md
+│   ├── P6-planning-for-instruction.md
+│   ├── P7-pedagogy.md
+│   ├── P8-communication-collaboration.md
+│   ├── P9-reflection-professional-growth.md
+│   └── P10-advocacy-ethical-leadership.md
+├── artifacts/
+│   ├── ARTIFACTS-REGISTRY.md        ← Master artifact list with clickable links
+│   └── artifact-references/
+│       ├── A1-bias-deconstruct.md
+│       ├── A2-impacting-practice-ai-pd.md
+│       ├── A3-ede498c-cs-curriculum.md
+│       ├── A4-ed452b-unit-plan.md
+│       ├── A5-ed400a-trauma-reflection.md
+│       └── A6-edu442-week12-activity.md
+├── tex/
+│   ├── personal-statement.tex
+│   ├── P1-learner-development.tex
+│   ├── P2-learner-diversity-equity.tex
+│   ├── P3-learning-environments.tex
+│   ├── P4-content-knowledge.tex
+│   ├── P5-assessment-of-learning.tex
+│   ├── P6-planning-for-instruction.tex
+│   ├── P7-pedagogy.tex
+│   ├── P8-communication-collaboration.tex
+│   ├── P9-reflection-professional-growth.tex
+│   ├── P10-advocacy-ethical-leadership.tex
+│   └── preamble.tex                 ← Shared LaTeX preamble (include in each paper)
+└── main.tex                         ← Full portfolio as single compiled document
 ```
 
-## Required portfolio elements
+---
 
-The full portfolio includes eleven short papers:
+## Source Repositories Cross-Reference
 
-1. Personal Statement
-2. Proficiency 1: Learner Development
-3. Proficiency 2: Learner Diversity and Equity
-4. Proficiency 3: Learning Environments
-5. Proficiency 4: Content Knowledge and Application
-6. Proficiency 5: Assessment of Learning
-7. Proficiency 6: Planning for Instruction
-8. Proficiency 7: Pedagogy
-9. Proficiency 8: Communication and Collaboration
-10. Proficiency 9: Reflection and Professional Growth
-11. Proficiency 10: Advocacy and Ethical Leadership
+| Repo | Course | Key Artifacts |
+|---|---|---|
+| [EDU442-Bias_Deconstruct-Assignment](https://github.com/pzg8794/EDU442-Bias_Deconstruct-Assignment) | EDU 442 | Deconstructing Bias paper, evidence sets, journal artifacts |
+| [edu442-impacting-practice-ai-pd](https://github.com/pzg8794/edu442-impacting-practice-ai-pd) | EDU 442 | AI PD module, lesson artifact, placement evidence |
+| [ede498c-integrating-cs-across-curriculum](https://github.com/pzg8794/ede498c-integrating-cs-across-curriculum) | EDE 498C | Minecraft unit, CS curriculum integration, coaching workflow |
+| [ED452B-Innovative-Unit-Plan-Portfolio](https://github.com/pzg8794/ED452B-Innovative-Unit-Plan-Portfolio) | ED 452B | Innovative unit plan (Parts 1–3), reflection/presentation |
+| [ED400A](https://github.com/pzg8794/ED400A) | ED 400A | Trauma-informed teaching reflection, seminar work |
+| [EDF436](https://github.com/pzg8794/EDF436) | EDF 436 | Course materials and notes |
+| [EDF447](https://github.com/pzg8794/EDF447) | EDF 447 | Disability and schools foundations |
+| [EDU442](https://github.com/pzg8794/EDU442) | EDU 442 | Course workspace and assignments |
+| [EDU442-Week12-GroupB-Activity](https://github.com/pzg8794/EDU442-Week12-GroupB-Activity) | EDU 442 | Inclusion & constructing others activity |
 
-## Rough-draft focus
+---
 
-The current rough draft is **Proficiency 2: Learner Diversity and Equity**. It is organized around the Childhood Education rubric criteria:
+## Certification Area Notes
 
-- 2.1 Understanding of learner diversity and equity
-- 2.2 Commitment to cultivating learner diversity and equity
-- 2.3 Incorporation of learner diversity and equity into inclusive, anti-oppressive learning experiences
+My certification area is **K-12 Computer Science**. The proficiency papers draw on:
+- Elementary CS practicum placements (Pine Brook IGNITE, spring 2026)
+- Robotics, AI literacy, and computational thinking lesson design
+- Equity-focused pedagogy (neurodivergent learners, CLD students)
+- Unit planning across block-based coding, Minecraft Education, Sphero, MagicSchool AI
 
-## Artifact policy
+---
 
-This repo is public, so private/sensitive artifacts from `teaching-placement`, `ED400A`, and other private ED repos should not be linked directly as the only evidence source. Where needed, this repo uses public-safe copies, summaries, and PDF exports that remove student-identifying details.
+## License / Use
 
-Use the private originals only as provenance. Use the public copies/PDFs for submission.
-
-## Build
-
-Local LaTeX build:
-
-```bash
-cd reports
-pdflatex portfolio.tex
-pdflatex portfolio.tex
-```
-
-A GitHub Actions workflow is included to build `reports/portfolio.tex` and upload the compiled PDF artifact when changes are pushed.
-
-## Overleaf
-
-This repo is also Overleaf-friendly. Open/import the repository in Overleaf and compile:
-
-- `reports/portfolio.tex`
-
-The checked-in `reports/portfolio.pdf` is included so a PDF exists even before Overleaf/GitHub Actions recompiles it.
+This is student coursework shared publicly for review and portfolio submission. See [LICENSE.md](LICENSE.md) for terms.
